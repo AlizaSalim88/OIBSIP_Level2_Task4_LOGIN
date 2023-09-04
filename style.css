@@ -1,0 +1,104 @@
+body{
+    margin:0 ;
+    padding: 0;
+    background-image: url("./scott-graham-5fNmWej4tAA-unsplash.jpg");
+    background-position: center;
+    background-size: cover;
+    z-index: -2;
+}
+.container{
+    z-index: 1;
+    background-color:white;
+    
+    width: 100%;
+    height: 70vh;
+    border: 1px solid black;
+    border-radius: 9px;
+    max-width: 500px;
+    margin: 50px auto;
+    
+}
+
+
+.input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 20px;
+}
+.input h1{
+   color: rgb(57, 28, 247);
+}
+form{
+    width: 80%;
+}
+.inp1{
+    display: flex;
+    margin: 15px;
+    padding: 10px;
+    background-color: rgb(219, 215, 215);
+    border-radius: 5px;
+    color: rgb(163, 161, 161);
+    max-height: 65px;
+    transition: max-height 0.5s;
+    overflow: hidden;
+}
+input{
+    width: 80%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 5px 19px;
+}
+form p{
+    text-align: left;
+    font-size: 18px;
+    margin-left: 2px;
+    padding-left: 15px;
+    color: rgb(86, 85, 85);
+}
+form p a{
+    color: rgb(57, 28, 247);
+}
+.btn{
+    width: 100%;
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.btn1{
+    padding: 8px;
+    flex-basis: 40%;
+    border: 0;
+    border-radius: 9px;
+    outline: 0;
+    color: rgb(181, 180, 227);
+    background-color: rgb(80, 22, 227);
+    cursor: pointer;
+}
+.btn1:hover{
+    transition: 0.2s;
+    background-color: rgb(54, 29, 217);
+    color: white;
+}
+.btn1.disable{
+    color: rgb(86, 85, 85);
+    background-color: rgb(219, 215, 215);
+}
+.inp1 span{
+    color: red;
+    font-size: 12px;
+}
+.btn span{
+    float: right;
+    font-size: 12px;
+    color: red;
+}
+@media(max-width:350px){
+    .btn1{
+        margin-top:-35px;
+        
+    }
+}
